@@ -1,0 +1,72 @@
+* {
+    font-family: "Inter", sans-serif;
+  }
+  
+  .my-button {
+    min-width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+  
+    font-size: 14px;
+    transition: background-color 200ms ease-in-out;
+  }
+  
+  .my-button--primary {
+    border: none;
+    color: white;
+    background-color: #4169e1;
+  }
+  
+  .my-button--bordered {
+    border: 1px solid #016fee;
+    color: #016fee;
+    background-color: white;
+  }
+  
+  .my-button--primary:hover {
+    background-color: #ffffff;
+    border: 1px solid #4169e1;
+    color:#4169e1;
+  }
+  
+  .my-button--bordered:hover {
+    background-color: #4169e1;
+    color: white;
+  }
+  
+  .my-button--sm {
+    min-width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+  
+  .my-button--md {
+    min-width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
+  
+  .my-button--lg {
+    min-width: 200px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .my-button--disabled {
+    cursor: not-allowed;
+    background-color: #4d98ee;
+    color: #ebebeb;
+  }
+  
+  .my-button--disabled:hover {
+    background-color: #4d98ee;
+    color: #ebebeb;
+  }
+  
+  .my-button--disabled.my-button--bordered {
+    border: 1px solid #4d98ee;
+    color: #4d98ee;
+    background-color: white;
+  }
